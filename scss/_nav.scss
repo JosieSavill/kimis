@@ -1,0 +1,105 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(69, 197, 69);
+  flex-direction: row;
+  width: 100%;
+  min-width: 100%;
+  // min-width: 600px;
+  height: auto;
+  color: white;
+  transition: color 0.3s ease-in-out;
+
+  @media (max-width: 1200px) {
+    /* Hide the links by default */
+    .logo,
+    .navbar-link,
+    .title,
+    .name,
+    .description {
+      display: none;
+    }
+
+    /* Show the hamburger menu icon */
+    .hamburger-menu {
+      display: block !important;
+      position: relative;
+      width: 80px;
+      height: 80px;
+      background-color: $darkGreen;
+      color: white;
+      text-align: center;
+      line-height: 80px;
+      cursor: pointer;
+      margin: 20px;
+      border-radius: 10px 10px 10px 10px;
+      transition: color 0.3s ease-in-out;
+    }
+  }
+
+  .navbar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    height: auto;
+    width: 40%;
+  }
+
+  .logo {
+    padding: 5px;
+    background-color: transparent;
+    img {
+      height: 96px;
+      width: 90px;
+    }
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .name {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 10px;
+  }
+
+  .description {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-right {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  .navbar-link a:hover {
+    color: $darkGreen;
+    cursor: pointer;
+  }
+
+  /* Styling for the hamburger menu icon */
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+
+    /* Add additional styling as needed */
+  }
+}

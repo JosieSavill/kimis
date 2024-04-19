@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-size: 50px;
+  flex-direction: row;
+  height: auto;
+  background-image: url("../images/greenSquare.png");
+  background-position: bottom;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 80px;
+  justify-content: center;
+  height: 200px;
+  background-repeat: repeat-x;
+  min-width: 100%;
+  // min-width: 600px;
+
+  .logo {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    background-color: transparent;
+    img {
+      height: 96px;
+      width: 90px;
+    }
+  }
+
+  .corporate {
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: start;
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+
+    .contact {
+      font-size: 20px;
+      font-weight: 400;
+      text-align: start;
+      font-style: italic;
+      color: white;
+      padding-bottom: 20px;
+
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .border-bottom {
+    //height: 4px; /* Set the height of the line */
+    width: 50%; /* Set the width of the line */
+    background-color: $green; /* Set the color of the line */
+    margin: 0; /* Adjust margin as needed */
+    border-bottom: solid 1px black;
+    overflow: visible;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+    min-width: 80%;
+
+    // @media (max-width: 600px) {
+    //   width: 500px;
+    //   max-width: 400px;
+    // }
+  }
+}

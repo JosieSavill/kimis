@@ -1,0 +1,89 @@
+.end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  min-width: 100%;
+  // min-width: 600px;
+
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+
+  .dining-room {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+    align-items: center;
+    // min-width: 400px;
+
+    @media (max-width: 800px) {
+      flex-direction: column-reverse;
+      // align-items: center;
+    }
+
+    .dining1 {
+      // height: 672px;
+      width: 100%;
+      border-radius: 15px;
+    }
+  }
+
+  .dining-room2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto;
+    }
+
+    .dining2 {
+      border-radius: 15px;
+      width: 100%;
+    }
+  }
+
+  .dining-text {
+    font-family: $mainFont;
+    font-style: italic;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    max-width: 800px;
+    // min-width: 100%;
+    // min-width: 300px;
+
+    @media (max-width: 1200px) {
+      padding: 50px;
+    }
+
+    @media (max-width: 600px) {
+      padding: 20px;
+    }
+
+    .decorative-line {
+      height: 4px; /* Set the height of the line */
+      width: 40%; /* Set the width of the line */
+      background-color: $green; /* Set the color of the line */
+      margin: 30px auto; /* Adjust margin as needed */
+      border-top: solid 1px black;
+      overflow: visible;
+    }
+
+    .second-message {
+      font-size: 20px;
+      font-weight: 600;
+      color: $darkGreen;
+      padding-bottom: 20px;
+    }
+  }
+}
