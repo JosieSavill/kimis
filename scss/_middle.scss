@@ -42,7 +42,7 @@
   button {
     font-size: 2rem;
     color: white;
-    background-color: $darkGreen;
+    background-color: rgb(187, 17, 209);
     width: 20%;
     border-radius: 10px 10px 10px 10px;
     transition: color 0.3s ease-in-out;
@@ -61,7 +61,7 @@
   .decorative-line {
     height: 4px; /* Set the height of the line */
     width: 40%; /* Set the width of the line */
-    background-color: $green; /* Set the color of the line */
+    background-color: rgb(187, 17, 209); /* Set the color of the line */
     margin: 30px auto; /* Adjust margin as needed */
     border-top: solid 1px black;
     overflow: visible;
