@@ -17,6 +17,8 @@
 
 //work on main
 
+navigate to index.html and open live server
+
 git add .
 
 git commit  -m "finished work on main"
