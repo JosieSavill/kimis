@@ -1,6 +1,6 @@
 # restaurant
 
-[Link](https://josiesavill.github.io/restaurant/)
+[Link](https://josiesavill.github.io/kimis/)
 
 
 ## SCSS 

@@ -42,7 +42,7 @@
   button {
     font-size: 2rem;
     color: white;
-    background-color: rgb(187, 17, 209);
+    background-color: black;
     width: 20%;
     border-radius: 10px 10px 10px 10px;
     transition: color 0.3s ease-in-out;
@@ -54,7 +54,7 @@
   }
 
   button:hover {
-    color: $green;
+    color: rgb(187, 17, 209);
     cursor: pointer;
   }
 
