@@ -24,7 +24,7 @@
 
   .large-statement {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 900;
   }
 
   .small-statement {
@@ -44,13 +44,14 @@
     font-size: 2rem;
     color: white;
     background-color: black;
-    width: 30%;
+    width: 40%;
     border-radius: 10px 10px 10px 10px;
     transition: color 0.3s ease-in-out;
 
     @media (max-width: 600px) {
-      width: 30%;
-      min-width: 200px;
+      font-size: 1rem;
+      width: 80%;
+      min-width: 80%;
     }
   }
 
