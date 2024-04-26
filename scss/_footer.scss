@@ -4,7 +4,7 @@
   background-size: 50px;
   flex-direction: row;
   height: auto;
-  background-image: url("../images/greenSquare.png");
+  background-image: url("../images/pinksquare.jpg");
   background-position: bottom;
   border-radius: 15px 15px 0px 0px;
   margin-top: 80px;
@@ -18,11 +18,16 @@
     padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 5px;
-    padding-right: 20px;
+    padding-right: 30px;
     background-color: transparent;
     img {
       height: 96px;
       width: 90px;
+      border-radius: 80px 80px 80px 80px;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
     }
   }
 
@@ -52,20 +57,27 @@
 
   .border-bottom {
     //height: 4px; /* Set the height of the line */
-    width: 50%; /* Set the width of the line */
+    width: 40%; /* Set the width of the line */
     background-color: rgb(187, 17, 209); /* Set the color of the line */
     margin: 0; /* Adjust margin as needed */
     border-bottom: solid 1px black;
     overflow: visible;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     border-radius: 15px 15px 0px 0px;
-    min-width: 80%;
+    min-width: 40%;
 
-    // @media (max-width: 600px) {
-    //   width: 500px;
-    //   max-width: 400px;
-    // }
+    @media (max-width: 800px) {
+      width: 60%;
+    }
+
+    @media (max-width: 600px) {
+      width: 80%;
+    }
+
+    @media (max-width: 400px) {
+      width: 90%;
+    }
   }
 }

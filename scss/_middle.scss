@@ -6,10 +6,11 @@
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-image: url(https://t4.ftcdn.net/jpg/05/83/02/59/240_F_583025997_mDUxyzMh6dXYHyViAMv8IixyNZk7EDzD.jpg);
+  // background-image: url(https://t4.ftcdn.net/jpg/05/83/02/59/240_F_583025997_mDUxyzMh6dXYHyViAMv8IixyNZk7EDzD.jpg);
+  background-image: url("/images/pinkbarbells.jpg");
   background-repeat: no-repeat;
   background-position: right 264px center;
-  background-size: 180px;
+  background-size: 240px;
   min-width: 100%;
   // min-width: 600px;
 
@@ -28,14 +29,14 @@
 
   .small-statement {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
   }
 
   .second-message {
     font-size: 20px;
-    font-weight: 600;
-    color: $darkGreen;
+    font-weight: 800;
+    color: rgb(187, 17, 209);
     padding-bottom: 20px;
   }
 
@@ -43,7 +44,7 @@
     font-size: 2rem;
     color: white;
     background-color: black;
-    width: 20%;
+    width: 30%;
     border-radius: 10px 10px 10px 10px;
     transition: color 0.3s ease-in-out;
 
@@ -69,7 +70,8 @@
 }
 
 .background-transparent {
-  background-image: url(https://t4.ftcdn.net/jpg/05/83/02/59/240_F_583025997_mDUxyzMh6dXYHyViAMv8IixyNZk7EDzD.jpg);
+  // background-image: url(https://t4.ftcdn.net/jpg/05/83/02/59/240_F_583025997_mDUxyzMh6dXYHyViAMv8IixyNZk7EDzD.jpg);
+  background-image: url("/images/pinkbarbells.jpg");
   background-repeat: no-repeat;
   mix-blend-mode: darken;
   background-color: transparent;
